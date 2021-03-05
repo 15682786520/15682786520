@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.peaksport.com/cn/images/website/logo2.svg" type="image/x-icon" />
+    <title>注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/register.css">
+
+
+</head>
+
+<body>
+    <header></header>
+    <div class=" register-main">
+        <div>
+            <div class="register-left">
+                <p>已有账户登陆</p>
+                <li><a href="login.html" target="_self">登陆你的匹克账户</a></li>
+            </div>
+            <div class="register-right">
+                <p>欢迎使用匹克会员</p>
+                <li><input id="zc-phoneNum" type="text" placeholder="手机号码"></li>
+                <li>
+                    <input id="zc-code" type="text" placeholder="验证码">
+                    <span class="register-code"></span>
+                </li>
+                <li><input id="zc-password" type="password" placeholder="密码"></li>
+                <li>
+                    <p>密码由6-16位字符组成，建议由数字、英文字母组合</p>
+                </li>
+                <li><input id="zc-passwordC" type="password" placeholder="确认密码"></li>
+                <li>
+                    <input class="reg-checkbox" type="checkbox">
+                    <span>我已阅读并同意 匹克会员注册协议</span>
+                    <!-- <a href=""></a> -->
+                </li>
+                <li>
+                    <input class="register-btn" type="button" value="注册">
+                </li>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
+<script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    // 引入头部
+    $("header").load("header.html");
+    $("footer").load("bottom.html");
+</script>
+<script src="js/register.js"></script>

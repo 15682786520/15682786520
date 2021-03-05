@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.peaksport.com/cn/images/website/logo2.svg" type="image/x-icon" />
+    <title>登陆</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+
+
+</head>
+
+<body>
+    <header></header>
+    <div class="login-main">
+        <div>
+            <div class="login-left">
+                <p>还未注册？</p>
+                <a href="register.html" target="_self">注册你的匹克账户</a>
+            </div>
+            <div class="login-middle">
+                <p>你可以直接登陆</p>
+                <a href=""><span class="iconfont icon-weixin-copy
+                "></span></a>
+                <a href=""><span class="iconfont icon-weibo"></span></a>
+            </div>
+            <div class="login-right">
+                <p>登陆</p>
+                <li><input id="pk-phoneNum" type="text" placeholder="手机号码"></li>
+                <li><input id="pk-password" type="password" placeholder="密码"></li>
+                <li>
+                    <input id="pk-code" type="text" placeholder="验证码">
+                    <span class="code">4567</span>
+                </li>
+                <li>
+                    <a href="">忘记密码</a>
+                    <a href="">手机验证码登陆</a>
+                </li>
+                <li>
+                    <input class="login-btn" type="button" value="登陆">
+                </li>
+                <li>登陆即表示你同意网站的<a href="">法律声明</a>及<a href="">隐私条款</a></li>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
+<script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    // 引入头部
+    $("header").load("header.html");
+    $("footer").load("bottom.html");
+</script>
+<!-- <script src="js/login_con.js"></script> -->
